@@ -3,6 +3,9 @@ unreleased
 
   * deps: accepts@~1.3.4
     - deps: mime-types@~2.1.16
+  * deps: content-type@~1.0.4
+    - perf: remove argument reassignment
+    - perf: skip parameter parsing when no parameters
 
 4.15.4 / 2017-08-06
 ===================
