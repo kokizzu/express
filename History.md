@@ -13,6 +13,7 @@ unreleased
     - perf: unroll the "fast-path" `RegExp`
   * deps: qs@6.5.1
     - Fix parsing & compacting very deep objects
+  * deps: setprototypeof@1.1.0
 
 4.15.4 / 2017-08-06
 ===================
