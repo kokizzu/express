@@ -19,6 +19,10 @@ unreleased
     - perf: unroll the "fast-path" `RegExp`
   * deps: qs@6.5.1
     - Fix parsing & compacting very deep objects
+  * deps: send@0.15.5
+    - Fix handling of modified headers with invalid dates
+    - deps: etag@~1.8.1
+    - deps: fresh@0.5.2
   * deps: setprototypeof@1.1.0
   * deps: utils-merge@1.0.1
 
