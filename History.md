@@ -10,6 +10,10 @@ unreleased
     - perf: replace regular expression with substring
   * deps: finalhandler@~1.0.5
     - deps: parseurl@~1.3.2
+  * deps: fresh@0.5.2
+    - Fix handling of modified headers with invalid dates
+    - perf: improve ETag match loop
+    - perf: improve `If-None-Match` token parsing
   * deps: parseurl@~1.3.2
     - perf: reduce overhead for full URLs
     - perf: unroll the "fast-path" `RegExp`
