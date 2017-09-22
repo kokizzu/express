@@ -8,6 +8,8 @@ unreleased
     - perf: skip parameter parsing when no parameters
   * deps: etag@~1.8.1
     - perf: replace regular expression with substring
+  * deps: finalhandler@~1.0.5
+    - deps: parseurl@~1.3.2
   * deps: parseurl@~1.3.2
     - perf: reduce overhead for full URLs
     - perf: unroll the "fast-path" `RegExp`
