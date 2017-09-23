@@ -22,10 +22,12 @@ unreleased
     - perf: unroll the "fast-path" `RegExp`
   * deps: qs@6.5.1
     - Fix parsing & compacting very deep objects
-  * deps: send@0.15.5
+  * deps: send@0.15.6
     - Fix handling of modified headers with invalid dates
+    - deps: debug@2.6.9
     - deps: etag@~1.8.1
     - deps: fresh@0.5.2
+    - perf: improve `If-Match` token parsing
   * deps: serve-static@1.12.5
     - deps: parseurl@~1.3.2
     - deps: send@0.15.5
