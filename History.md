@@ -7,6 +7,7 @@ unreleased
   * deps: content-type@~1.0.4
     - perf: remove argument reassignment
     - perf: skip parameter parsing when no parameters
+  * deps: debug@2.6.9
   * deps: etag@~1.8.1
     - perf: replace regular expression with substring
   * deps: finalhandler@~1.0.5
