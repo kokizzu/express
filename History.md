@@ -28,9 +28,10 @@ unreleased
     - deps: etag@~1.8.1
     - deps: fresh@0.5.2
     - perf: improve `If-Match` token parsing
-  * deps: serve-static@1.12.5
+  * deps: serve-static@1.12.6
     - deps: parseurl@~1.3.2
-    - deps: send@0.15.5
+    - deps: send@0.15.6
+    - perf: improve slash collapsing
   * deps: setprototypeof@1.1.0
   * deps: utils-merge@1.0.1
 
