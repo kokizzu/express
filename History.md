@@ -34,6 +34,8 @@ unreleased
     - perf: improve slash collapsing
   * deps: setprototypeof@1.1.0
   * deps: utils-merge@1.0.1
+  * deps: vary@~1.1.2
+    - perf: improve header token parsing speed
 
 4.15.4 / 2017-08-06
 ===================
