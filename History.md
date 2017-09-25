@@ -1,3 +1,47 @@
+unreleased
+==========
+
+  * Improve error message when autoloading invalid view engine
+  * deps: accepts@~1.3.4
+    - deps: mime-types@~2.1.16
+  * deps: content-type@~1.0.4
+    - perf: remove argument reassignment
+    - perf: skip parameter parsing when no parameters
+  * deps: debug@2.6.9
+  * deps: etag@~1.8.1
+    - perf: replace regular expression with substring
+  * deps: finalhandler@~1.0.6
+    - deps: debug@2.6.9
+    - deps: parseurl@~1.3.2
+  * deps: fresh@0.5.2
+    - Fix handling of modified headers with invalid dates
+    - perf: improve ETag match loop
+    - perf: improve `If-None-Match` token parsing
+  * deps: parseurl@~1.3.2
+    - perf: reduce overhead for full URLs
+    - perf: unroll the "fast-path" `RegExp`
+  * deps: proxy-addr@~2.0.2
+    - Fix trimming leading / trailing OWS in `X-Forwarded-For`
+    - deps: forwarded@~0.1.2
+    - deps: ipaddr.js@1.5.2
+    - perf: reduce overhead when no `X-Forwarded-For` header
+  * deps: qs@6.5.1
+    - Fix parsing & compacting very deep objects
+  * deps: send@0.15.6
+    - Fix handling of modified headers with invalid dates
+    - deps: debug@2.6.9
+    - deps: etag@~1.8.1
+    - deps: fresh@0.5.2
+    - perf: improve `If-Match` token parsing
+  * deps: serve-static@1.12.6
+    - deps: parseurl@~1.3.2
+    - deps: send@0.15.6
+    - perf: improve slash collapsing
+  * deps: setprototypeof@1.1.0
+  * deps: utils-merge@1.0.1
+  * deps: vary@~1.1.2
+    - perf: improve header token parsing speed
+
 4.15.4 / 2017-08-06
 ===================
 
